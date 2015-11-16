@@ -4,7 +4,7 @@ This class allows you to generate an image using an existing image with text cen
 
 ## Usage
 
-```
+```php
 $img = new CenteredTextImage($text, $filename, $font, $font_size, $color, $wrap_size, $line_height);
 $img->output(); // Outputs image to the browser
 return $img; // Returns image object
@@ -24,7 +24,7 @@ Attribute    | Type     | Description
 
 ## Example
 
-```
+```php
 $img = new CenteredTextImage("Hello world!", 'image.jpg', 'Lato-Bold.ttf', 20, array(255, 255, 255), 200, 10);
 $img->output();
 ```
