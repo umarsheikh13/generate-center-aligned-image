@@ -6,7 +6,8 @@ This class allows you to generate an image using an existing image with text cen
 
 ```
 $img = new CenteredTextImage($text, $filename, $font, $font_size, $color, $wrap_size, $line_height);
-$img->output();
+$img->output(); // Outputs image to the browser
+return $img; // Returns image object
 ```
 
 ## Parameters
@@ -25,7 +26,7 @@ Attribute    | Type     | Description
 
 ```
 $img = new CenteredTextImage("Hello world!", 'image.jpg', 'Lato-Bold.ttf', 20, array(255, 255, 255), 200, 10);
-$img->output(); // Outputs image to the browser
+$img->output();
 ```
 
 ![Center Aligned Text](http://s14.postimg.org/mvkgzw34h/image.jpg)
