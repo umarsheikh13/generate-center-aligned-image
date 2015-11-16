@@ -146,6 +146,3 @@ class CenteredTextImage
         imagedestroy($image);
     }
 }
-
-//$img = new CenteredTextImage( "Hello world!", 'image.jpg', 'Lato-Bold.ttf', 20, array( 255, 255, 255 ), 200, 10 );
-//$img->output();
