@@ -15,7 +15,7 @@ class CenteredTextImage
 {
 
     /**
-     * The configuration variables
+     * The configuration properties
      */
     public $text;
     public $filename;
@@ -27,7 +27,7 @@ class CenteredTextImage
     public $line_height;
 
     /**
-     * Sets all the variables upon class instantiation
+     * Sets all the properties upon class instantiation
      *
      * @param str $text The text you want to write on the image
      * @param str $filename Path to JPEG
